@@ -25,6 +25,13 @@
 	  document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
 	</script>
 
+    <style type="text/css">
+      table, td, th {
+      border: 2px solid black !important;
+      border-collapse: collapse;
+      }
+    </style>
+
 	<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
@@ -77,19 +84,285 @@
 
         <section>
           <section>
-            <h1>Computer Science?</h1>
+            <h2>Misconceptions</h2>
 		  </section>
 
           <section>
-            <h2>Computer Science</h2>
-            <p>vs.</p>
-            <h2>Information Technology</h2>
+            <img src="img/geek.jpg" />
 		  </section>
 
-          <!-- http://www.nytimes.com/2001/03/25/weekinreview/25JOHN.html?searchpv=site14 -->
+          <section>
+            <img src="img/loneliness.jpg" />
+		  </section>
+
+          <section>
+            <h2>It's all Programming</h2>
+		  </section>
+
+          <section>
+            <h2>It's all Math</h2>
+		  </section>
+
+          <section>
+            <h2>CS == IT</h2>
+		  </section>
+		</section>
+
+        <section>
+          <section>
+            <h1>Why CS?</h1>
+		  </section>
+
+          <section>
+            <h2>Jobs</h2>
+            <a href="http://www.bls.gov/emp/"><img src="img/job-chart.png" style="border:none; box-shadow:none;" /></a>
+		  </section>
+
+          <section>
+            <h2>Pay</h2>
+            <p>2010 Median Salary: $90,530</p>
+
+            <br /><br />
+            <p><small><a href="http://www.bls.gov/ooh/Computer-and-Information-Technology/Software-developers.htm">http://www.bls.gov/ooh/Computer-and-Information-Technology/Software-developers.htm</a></small></p>
+		  </section>
+
+          <section>
+            <h2>Growth</h2>
+            <p><a href="http://www.thetexaseconomy.org/business-industry/work-force-trends/articles/article.php?name=Houston_job_growth"><img width="600px" src="img/growth.png" style="border:none; box-shadow:none;" /></a><br /><small>(2011 figures)</small></p>
+		  </section>
+
+          <section>
+            <h2>Perks</h2>
+            <table width="1000">
+              <tr><td>FullContact</td><td>Paid <em>Paid</em> Vacation</td></tr>
+              <tr><td>eBay</td><td>Rafting trips</td></tr>
+              <tr><td>Genentech</td><td>Onsite child and animal daycare</td></tr>
+              <tr><td>Google</td><td>Dogs allowed in the office</td></tr>
+              <tr><td>Facebook</td><td>Four months paid materity/paternity leave</td></tr>
+              <tr><td>Microsoft</td><td>Bus service (with wi-fi) directly to work</td></tr>
+              <tr><td>Netflix</td><td>No counting vacation days</td></tr>
+              <tr><td>Dropbox</td><td>Sound-proof music studio</td></tr>
+              <tr><td>Treehouse</td><td>Four day work week</td></tr>
+              <tr><td>37 Signals</td><td>Company credit card for everyone</td></tr>
+            </table>
+            <!-- http://thenextweb.com/insider/2012/04/09/12-startups-that-offer-their-employees-the-coolest-perks/ -->
+            <!-- http://jobs.aol.com/articles/2011/08/19/tech-boom-fuels-surge-of-creative-perks-to-lure-top-talent/ -->
+		  </section>
+
+          <section>
+            <h2>Interdisciplinary</h2>
+            <table width="1000" border="0">
+              <tr><td>Bioinformatics</td><td>CS + Biology</td></tr>
+              <tr><td>Data Science</td><td>CS + Statistics</td></tr>
+              <tr><td>Theory</td><td>CS + Math</td></tr>
+              <tr><td>Information Technology Policy</td><td>CS + Law</td></tr>
+              <tr><td>Management Information Systems</td><td>CS + Business</td></tr>
+              <tr><td>Health Informatics</td><td>CS + Health Care</td></tr>
+            </table>
+		  </section>
+
+          <section>
+            <blockquote style="text-align: left;">
+              Computer Scientists are the blacksmiths of the 21st century.
+            </blockquote>
+		  </section>
+		</section>
+
+        <section>
+          <h1>Job Categories</h1>
+          <ul>
+            <li>Research</li>
+            <li>Industry</li>
+            <li>Entrepreneurship</li>
+          </ul>
+		</section>
+
+        <section>
+          <section>
+            <h1>Research</h1>
+		  </section>
+
+          <section>
+            <h2>Areas</h2>
+            <ul>
+              <li>Artificial Intelligence
+                <ul>
+                  <li>Multi-Agent Systems</li>
+                  <li>Computer Vision</li>
+                  <li>Machine Learning</li>
+                </ul>
+              </li>
+              <li>Bioinformatics</li>
+              <!-- <li>Computer Architecture</li> -->
+              <li>Computer and Network Security</li>
+              <!-- <li>Database Management Systems</li> -->
+              <li>Graphics</li>
+              <li>Human-Computer Interaction</li>
+              <!-- <li>Networking</li> -->
+              <li>Natural Language Processing</li>
+              <!-- <li>Operating Systems</li> -->
+              <li>Programming Languages and Compilers</li>
+              <li>Robotics</li>
+              <!-- <li>Signal and Image Processing</li> -->
+              <li>Theory</li>
+            </ul>
+		  </section>
+
+          <section>
+            <h3>What do you do in Research?</h3>
+            <ul>
+              <li>Create <em>prototypes</em> of research ideas
+              (code/hardware)
+                <ul>
+                  <li>Build software (code)</li>
+                  <li>Construct hardware</li>
+                  <li>Collect data</li>
+                </ul>
+              </li>
+              <li>Experiment by running prototype on <strong>lots</strong> of data
+                <ul>
+                  <li>Supercomputers/clusters</li>
+                </ul>
+              </li>
+              <li>Write papers and publish results
+                <ul>
+                  <li>Conferences count a lot more than journals</li>
+                  <li>Very different from an essay--lots of figures</li>
+                </ul>
+              </li>
+            </ul>
+		  </section>
+
+          <section>
+            <h3>Jobs in Research?</h3>
+            <ul>
+              <li>College professor</li>
+              <li>Industrial research (Microsoft, Siemens, ...)</li>
+              <li>Finance (high frequencey trading)</li>
+              <li>Data science</li>
+            </ul>
+		  </section>
+
+          <section>
+            <h3>Requirements</h3>
+            <ul>
+              <li>Degree: Ph.D. or M.S.</li>
+              <li>Aptitude for math</li>
+              <li>Skilled in programming</li>
+            </ul>
+		  </section>
+
+          <section>
+            <h3>My Research</h3>
+		  </section>
 
 		</section>
 
+        <section>
+          <section>
+            <h1>Industry</h1>
+		  </section>
+
+          <section>
+            <h2>Areas</h2>
+            <ul>
+              <li>Software Engineering</li>
+              <li>Dev-Ops</li>
+              <li>Operations / Systems Administration</li>
+              <li>Testing</li>
+              <li>Consultant</li>
+              <li>Contractor</li>
+            </ul>
+		  </section>
+
+          <section>
+            <h3>What do you do in Industry?</h3>
+            <ul>
+              <li>Work on complex systems</li>
+              <li>Build products (technology companies)</li>
+              <li>Provide support for other engineers</li>
+              <li>Manage huge clusters of computers</li>
+              <li>Process large amounts of data</li>
+            </ul>
+		  </section>
+
+          <section>
+            <h3>Top Technology Companies</h3>
+            
+            <ul>
+              <li>Apple</li>
+              <li>HP</li>
+              <li>IBM</li>
+              <li>Microsoft</li>
+              <li>Dell</li>
+              <li>Amazon.com</li>
+              <li>Intel</li>
+              <li>Google</li>
+            </ul>
+            <!-- http://en.wikipedia.org/wiki/List_of_the_largest_information_technology_companies -->
+		  </section>
+
+          <section>
+            <h3>My Projects</h3>
+          </section>
+
+		</section>
+
+        <section>
+          <section>
+            <h2>Entrepreneurship</h2>
+            <p>Building new technology companies</p>
+		  </section>
+
+          <section>
+            <img src="img/billion-dollars.jpg" width="600" style="border:none; box-shadow:none;" />
+		  </section>
+
+          <section>
+            <img src="img/social-network.jpg" style="border:none; box-shadow:none;" />
+		  </section>
+
+          <section>
+            <h3>What is a startup?</h3>
+            <blockquote style="text-align: left;">
+               A startup is a company designed to grow fast. Being
+               newly founded does not in itself make a company a
+               startup. Nor is it necessary for a startup to work on
+               technology, or take venture funding, or have some sort
+               of "exit." The only essential thing is
+               growth. Everything else we associate with startups
+               follows from growth. --Paul Graham
+            </blockquote>
+		  </section>
+
+          <section>
+            <h3>Building a Company</h3>
+            <ol>
+              <li>Start with an industry and an idea to fix it</li>
+              <li>Find "Co-Founders" to complement your skills</li>
+              <li>Build a Minimum Viable Product (MVP)</li>
+              <li>Get funding to continue growing</li>
+              <li>Keep growing</li>
+            </ol>
+		  </section>
+
+          <section>
+            <h3>Skills Needed</h3>
+            <ul>
+              <li>Programming</li>
+              <li>Systems Administration</li>
+              <li>Testing</li>
+              <li>Product management</li>
+              <li>Marketing</li>
+              <li>Business administration</li>
+              <li>...</li>
+            </ul>
+		  </section>
+		</section>
+
+        <!-- http://www.nytimes.com/2001/03/25/weekinreview/25JOHN.html?searchpv=site14 -->
+        <!-- https://www.youtube.com/watch?v=qYZF6oIZtfc -->
+        <!-- http://www.bls.gov/ooh/Computer-and-Information-Technology/Software-developers.htm -->
 	  </div>
 
 	</div>
